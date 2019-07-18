@@ -5,6 +5,8 @@
 /* float the banners to the left, so they sit side by side, with even spacing */
 /* features */
 
+
+/* Nav Styling */
 nav img {
     float:left;
     margin:30px 30px 30px 30px;
@@ -20,7 +22,6 @@ a {
     font-size: 20px;
     margin: 30px;
 }
-
 nav ul :hover{
     color: rgb(155, 153, 153);
     background-color: black;
@@ -28,6 +29,27 @@ nav ul :hover{
 header li {
     line-height: 200px;
 }
-main {
-    clear: both;
+/* //END NAV STYLING// */
+
+main img {
+    margin: 15px;
+}
+
+body{
+    text-align: center;
+}
+
+div {
+    height: 400px;
+    width: 465px;
+    display:inline-block;
+    margin: 15px;
+}
+h2 {
+    text-align: left;
+}
+
+div p{
+    overflow: scroll;
+    height: 370px;
 }
