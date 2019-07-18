@@ -1,0 +1,33 @@
+/* Goals */
+/* give the logo a margin */
+/* create a box behind the nav options, and make them mouse-over */
+/* margin around the Hero image */
+/* float the banners to the left, so they sit side by side, with even spacing */
+/* features */
+
+nav img {
+    float:left;
+    margin:30px 30px 30px 30px;
+}
+nav ul {
+    background-color: rgb(46, 45, 45);
+    color: rgba(139, 139, 139, 0.493);
+    height: 100%;
+}
+a {
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+    margin: 30px;
+}
+
+nav ul :hover{
+    color: rgb(155, 153, 153);
+    background-color: black;
+}
+header li {
+    line-height: 200px;
+}
+main {
+    clear: both;
+}
